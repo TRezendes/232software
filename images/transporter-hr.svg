@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 50" id="svg" opacity="0" filter="none">
+  <filter id="flash-shadow">
+    <feDropShadow
+      dx="0"
+      dy="0"
+      stdDeviation="50"
+      flood-color="#fdfafe"
+       />
+  </filter>
+  <animate
+    href="#svg"
+    attributeName="opacity"
+    begin="0s"
+    dur="6s"
+    from="0"
+    to="0"
+    values="0;0;1;0.8;0"
+    keyTimes="0;0.5;0.75;0.9;1"
+    fill="freeze"
+  />
+  <animate
+    href="#svg"
+    attributeName="filter"
+    begin="0s"
+    dur="6s"
+    from="0"
+    to="0"
+    values="none;none;url(#flash-shadow);none"
+    keyTimes="0;0.5;0.75;1"
+    fill="freeze"
+  />
+  <style>
+    .save {color: #fdfafe}
+    path {
+      stroke: #fdfafe;
+      fill: #fdfafe;
+    }
+  </style>
+  <g id="top">
+  <path id="top-top" d="M 0 25 Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25">
+    <animate
+      href="#top-top"
+      attributeName="d"
+      begin="3s"
+      dur="3s"
+
+      from= "M  0 25  Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25"
+
+      to=   "M  0 0   Q 200 0  285.5 0  370 0  455.5 0  540 0  740 0"
+
+      values="M 0 25    Q 200 25    285.5 25  370 25      455.5  25     540 25    740 25;
+              M 0 12.5  Q 200 12.5  285.5 0   370 -12.5   455.5  0      540 12.5  740 12.5;
+              M 0 0     Q 200 0     285.5 0   370 0       455.5  0      540 0     740 0"
+      keyTimes="0;0.75;1"
+      fill="freeze"
+    />
+  </path>
+  <path id="top-bottom" d="M 0 25 Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25">
+    <animate
+    href="#top-bottom"
+      attributeName="d"
+      begin="3s"
+      dur="3s"
+
+      from= "M  0 25  Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25"
+
+      to=   "M  0 0   Q 200 0  285.5 0  370 0  455.5 0  540 0  740 0"
+
+      values="M 0 25    Q 200 25    285.5 25  370 25    455.5  25 540 25    740 25;
+              M 0 12.5  Q 200 12.5  285.5 25  370 37.5  455.5  25 540 12.5  740 12.5;
+              M 0 0     Q 200 0     285.5 0   370 0     455.5  0  540 0     740 0"
+      keyTimes="0;0.75;1"
+      fill="freeze"
+    />
+  </path>
+  </g>
+  <g id="bottom">
+  <path id="bottom-top" d="M 0 25 Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25">
+    <animate
+      href="#bottom-top"
+      attributeName="d"
+      begin="3s"
+      dur="3s"
+
+      from= "M  0 25  Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25"
+
+      to=   "M  0 50  Q 200 50 285.5 50 370 50 455.5 50 540 50 740 50"
+
+      values="M 0 25    Q 200 25    285.5 25  370 25    455.5  25 540 25    740 25;
+              M 0 37.5  Q 200 37.5  285.5 25  370 12.5  455.5  25 540 37.5  740 37.5;
+              M 0 50    Q 200 50    285.5 50  370 50      455.5  50     540 50    740 50"
+      keyTimes="0;0.75;1"
+      fill="freeze"
+    />
+  </path>
+    <path id="bottom-bottom" d="M 0 25 Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25">
+      <animate
+        href="#bottom-bottom"
+        attributeName="d"
+        begin="3s"
+        dur="3s"
+
+        from= "M  0 25  Q 200 25 285.5 25 370 25 455.5 25 540 25 740 25"
+
+        to=   "M  0 50  Q 200 50 285.5 50 370 50 455.5 50 540 50 740 50"
+
+        values="M 0 25    Q 200 25    285.5 25  370 25      455.5  25     540 25    740 25;
+                M 0 37.5  Q 200 37.5  285.5 50  370 62.5    455.5  50   540 37.5  740 37.5;
+                M 0 50    Q 200 50    285.5 50  370 50      455.5  50     540 50    740 50"
+        keyTimes="0;0.75;1"
+        fill="freeze"
+      />
+    </path>
+  </g>
+</svg>
