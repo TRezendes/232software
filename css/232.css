@@ -137,11 +137,22 @@ object {
     z-index: 5;
 }
 
+.title, .transporter-top, .transporter-bottom {
+    position: absolute;
+    top: 50vh;
+    align-content: baseline;
+    left: 50%;
+}
+.title {
+    transform: translate(-50%, -60%);
+}
+
 .transporter-top, .transporter-bottom {
     display: flex;
     flex-direction: row;
     text-wrap: nowrap;
     color: #ffffff;
+    transform: translate(-50%, -60%) scaleX(0.5);
 }
 
 .transporter-top {
@@ -152,18 +163,22 @@ object {
     z-index: -1;
 }
 
-.title, .transporter-top, .transporter-bottom {
-    position: absolute;
-    top: 50vh;
-    align-content: baseline;
-    left: 50%;
-    transform: translate(-50%, -60%);
-}
-
 .transporter-top h1, .transporter-bottom h1 {
     font-family: robotothin, sans-serif;
     font-weight: 100;
     transform: scaleX(0.3);
+}
+
+.transporter-top div, .transporter-bottom div {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    text-wrap: nowrap;
+    color: #ffffff;
+}
+
+.invert {
+    transform: scale(-1, -1) translateY(-9%);
 }
 
 .t1 {
