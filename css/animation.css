@@ -113,3 +113,21 @@
         transform: translate(-50%, calc(-60% + 25px)) scaleX(0.5);
     }
 }
+
+
+@media (prefers-reduced-motion) {
+  @keyframes title-fade {
+  }
+
+  @keyframes subtitle-fade {
+  }
+
+  @keyframes tng-transporter {
+  }
+
+  @keyframes stiv-transporter-top {
+  }
+
+  @keyframes stiv-transporter-bottom {
+  }
+}

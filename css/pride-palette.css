@@ -598,3 +598,12 @@
     --pride-nonbinary-purple: #9c59d1;
     --pride-nonbinary-black: #2c2c2c;
     }
+
+
+@media (prefers-contrast: more) {
+  :root {
+      --pride-bi-pink: #ff91ff;
+      --pride-bi-purple: #ffb8ff;
+      --pride-bi-blue: #c7ffff;
+  }
+}

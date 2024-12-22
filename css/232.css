@@ -4,10 +4,13 @@
     --text-color: #fdfafe;
 }
 
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: b612regular;
 }
+
 
 .outer-box {
     /* position: relative; */
@@ -19,7 +22,61 @@ body {
 .content {
     position: relative;
     margin-top: 75vh;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
 }
+
+.button {
+    margin: 0 auto;
+    animation-name: title-fade;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+.button a {
+    transition: ease;
+    cursor: pointer;
+}
+
+.button a.pink {
+    color: var(--pride-bi-pink);
+}
+
+.button a.purple {
+    color: var(--pride-bi-purple);
+}
+
+.button a.blue {
+    color: var(--pride-bi-blue);
+}
+
+.button a.pink:hover {
+    color: var(--pride-bi-purple);
+}
+
+.button a.purple:hover {
+    color: var(--pride-bi-blue);
+}
+
+.button a.blue:hover {
+    color: var(--pride-bi-pink);
+}
+
+.button a.pink:active {
+    color: var(--pride-bi-blue);
+}
+
+.button a.purple:active {
+    color: var(--pride-bi-pink);
+}
+
+.button a.blue:active {
+    color: var(--pride-bi-purple);
+}
+
 
 h1 {
     font-size: 24vmax;
@@ -56,6 +113,10 @@ h2 {
     transform: translate(-50%, -60%);
     padding: 5px;
     border-radius: 10px;
+}
+
+.subtitle {
+    text-shadow: 0 0 8px #000000;
 }
 
 object {
@@ -95,7 +156,7 @@ object {
 .transporter-top h1, .transporter-bottom h1 {
     font-family: robotothin, sans-serif;
     font-weight: 100;
-    /* margin-top: 8rem; */
+    transform: scaleX(0.3);
 }
 
 .t1 {
@@ -150,4 +211,13 @@ object {
     animation-delay: 0s;
     animation-duration: 3s;
     animation-fill-mode: both;
+}
+
+@media (prefers-reduced-motion) {
+  .transporter-bottom, .transporter-top, object {
+      display: none;
+  }
+  .title {
+      color: var(--pride-bi-blue)
+  }
 }
