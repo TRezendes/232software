@@ -2,6 +2,13 @@
     --background-color-old: #d2d9ff;
     --background-color: #000000;
     --text-color: #fdfafe;
+    --text-color-50: #fdfafe80
+}
+
+@media (prefers-contrast: more) {
+  :root {
+      --text-color-66: var(--text-color);
+  }
 }
 
 
@@ -37,7 +44,7 @@ body {
 }
 
 .button a {
-    transition: ease;
+    transition: color 0.5s ease;
     cursor: pointer;
 }
 
@@ -211,6 +218,21 @@ object {
     animation-delay: 0s;
     animation-duration: 3s;
     animation-fill-mode: both;
+}
+
+.copyright {
+    color: var(--text-color-50);
+    font-size: 1vmin;
+    animation-name: subtitle-fade;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    transition: font-size 0.25s ease-in-out;
+}
+
+.copyright:hover {
+    font-size: calc(0.25rem + 1vmin);
+    transition: font-size 0.25s ease-in-out;
 }
 
 @media (prefers-reduced-motion) {
