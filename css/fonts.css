@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: 'starfleet2';
-    src: url('/Users/trezendes/Projects/232software/fonts/Starfleet_2/starfleet_2-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/Starfleet_2/starfleet_2-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/Starfleet_2/Starfleet_2.ttf') format('ttf');
+    src: url('/fonts/Starfleet_2/starfleet_2-webfont.woff2') format('woff2'),
+         url('/fonts/Starfleet_2/starfleet_2-webfont.woff') format('woff'),
+         url('/fonts/Starfleet_2/Starfleet_2.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -14,18 +14,18 @@
 
 @font-face {
     font-family: 'trek_tng_monitorsregular';
-    src: url('/Users/trezendes/Projects/232software/fonts/Trek_TNG_Monitors/trek_tng_monitors-webfont.woff2') format('woff2'),
-        url('/Users/trezendes/Projects/232software/fonts/Trek_TNG_Monitors/trek_tng_monitors-webfont.woff') format('woff'),
-        url('/Users/trezendes/Projects/232software/fonts/Trek_TNG_Monitors/Trek_TNG_Monitors.ttf') format('ttf');
+    src: url('/fonts/Trek_TNG_Monitors/trek_tng_monitors-webfont.woff2') format('woff2'),
+        url('/fonts/Trek_TNG_Monitors/trek_tng_monitors-webfont.woff') format('woff'),
+        url('/fonts/Trek_TNG_Monitors/Trek_TNG_Monitors.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'federationregular';
-    src: url('/Users/trezendes/Projects/232software/fonts/Federation/federation-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/Federation/federation-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/Federation/Federation.ttf') format('ttf');
+    src: url('/fonts/Federation/federation-webfont.woff2') format('woff2'),
+         url('/fonts/Federation/federation-webfont.woff') format('woff'),
+         url('/fonts/Federation/Federation.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -33,45 +33,45 @@
 
 @font-face {
     font-family: 'robotothin';
-    src: url('/Users/trezendes/Projects/232software/fonts/Roboto-Thin/roboto-thin-webfont.woff2') format('woff2'),
-        url('/Users/trezendes/Projects/232software/fonts/Roboto-Thin/roboto-thin-webfont.woff') format('woff'),
-        url('/Users/trezendes/Projects/232software/fonts/Roboto-Thin/Roboto-Thin.ttf') format('ttf');
+    src: url('/fonts/Roboto-Thin/roboto-thin-webfont.woff2') format('woff2'),
+        url('/fonts/Roboto-Thin/roboto-thin-webfont.woff') format('woff'),
+        url('/fonts/Roboto-Thin/Roboto-Thin.ttf') format('ttf');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'b612regular';
-    src: url('/Users/trezendes/Projects/232software/fonts/B612/b612-regular-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/b612-regular-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/B612-Regular.ttf') format('ttf');
+    src: url('/fonts/B612/b612-regular-webfont.woff2') format('woff2'),
+         url('/fonts/B612/b612-regular-webfont.woff') format('woff'),
+         url('/fonts/B612/B612-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'b612italic';
-    src: url('/Users/trezendes/Projects/232software/fonts/B612/b612-italic-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/b612-italic-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/B612-Italic.ttf') format('ttf');
+    src: url('/fonts/B612/b612-italic-webfont.woff2') format('woff2'),
+         url('/fonts/B612/b612-italic-webfont.woff') format('woff'),
+         url('/fonts/B612/B612-Italic.ttf') format('ttf');
     font-weight: normal;
     font-style: Italic;
 }
 
 @font-face {
     font-family: 'b612bold_italic';
-    src: url('/Users/trezendes/Projects/232software/fonts/B612/b612-bolditalic-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/b612-bolditalic-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/B612-BoldItalic.ttf') format('ttf');
+    src: url('/fonts/B612/b612-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/B612/b612-bolditalic-webfont.woff') format('woff'),
+         url('/fonts/B612/B612-BoldItalic.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'b612bold';
-    src: url('/Users/trezendes/Projects/232software/fonts/B612/b612-bold-webfont.woff2') format('woff2'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/b612-bold-webfont.woff') format('woff'),
-         url('/Users/trezendes/Projects/232software/fonts/B612/B612-Bold.ttf') format('ttf');
+    src: url('/fonts/B612/b612-bold-webfont.woff2') format('woff2'),
+         url('/fonts/B612/b612-bold-webfont.woff') format('woff'),
+         url('/fonts/B612/B612-Bold.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
