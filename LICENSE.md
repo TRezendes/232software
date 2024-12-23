@@ -1,6 +1,6 @@
 # 🏳️‍🌈 Opinionated Queer License v1.2
 
-© Copyright [Timtothy Rezendes and 232 Software](https://232.software)
+© Copyright [Timothy Rezendes and 232 Software](https://232.software)
 
 ## Permissions
 
