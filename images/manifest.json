@@ -1,0 +1,11 @@
+{
+    "name": "232 Software",
+    "short_name": "232",
+    "icons": [{
+        "src": "google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#000000",
+    "theme_color": "#0038a8",
+    "display": "fullscreen"
+}
