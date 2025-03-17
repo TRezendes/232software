@@ -273,6 +273,12 @@ object.animated {
   margin: 8vh auto 0;
   text-decoration: none;
   z-index: 100;
+  background-image: url("../images/TRaHR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-color: #757276; */
+  /* border: 5px dashed greenyellow; */
 }
 
 .project {
@@ -297,9 +303,14 @@ object.animated {
 }
 
 .warflags h1 {
+<<<<<<< HEAD
   font-family: old_harbour_seashellsregular;
   font-size: 4em;
+=======
+  font-family: old_harbour_seashellsregular, sans-serif;
+>>>>>>> homepage_additions
   color: #001553;
+  font-size: 4em;
 }
 
 .warflags #curved-title {
