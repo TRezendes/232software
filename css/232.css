@@ -298,5 +298,14 @@ object.animated {
 
 .warflags h1 {
   font-family: old_harbour_seashellsregular;
+  font-size: 4em;
   color: #001553;
+}
+
+.warflags #curved-title {
+  font-family: old_harbour_seashellsregular;
+  font-size: 6em;
+  display: box;
+  fill: #001553;
+  margin: 1vh auto;
 }

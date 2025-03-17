@@ -12,11 +12,11 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="manifest" href="images/manifest.json">
 
-  <link rel="stylesheet" href="css/fonts.css?v=0.1" />
-  <link rel="stylesheet" href="css/default.css?v=1.0" />
-  <link rel="stylesheet" href="css/232.css?v=0.2" />
-  <link rel="stylesheet" href="css/pride-palette.css?v=1.1" />
-  <link rel="stylesheet" href="css/animation.css?v=0.1" />
+  <link rel="stylesheet" href="../css/fonts.css?v=0.1" />
+  <link rel="stylesheet" href="../css/default.css?v=1.0" />
+  <link rel="stylesheet" href="../css/232.css?v=0.2" />
+  <link rel="stylesheet" href="../css/pride-palette.css?v=1.1" />
+  <link rel="stylesheet" href="../css/animation.css?v=0.1" />
 
   <script src="https://kit.fontawesome.com/56f2c79116.js" crossorigin="anonymous"></script>
 
@@ -51,10 +51,26 @@
   <meta property="twitter:image:height" content="675" />
 
 </head>
+
 <body class="warflags">
-        <h1>Pride War Flags</h1>
-        <p>
-            Inspired by <a href="#">this Tumblr post</a> that shares <a href="#">this tweet</a>, that I saw shared <a href="#">on Mastodon</a>, I have designed Pride War Flags. I will write more about them, but not right now, because I want to do other things at the mooment.
-        </p>
+  <div class="outer-box centered">
+    <svg id="curved-title" class="centered" width="1100" height="300" viewbox="0 0 1100 300" role="h1">
+      <defs>
+        <path id="title-path" d="
+          M 0 250
+          Q 550 0 1100 250
+        " />
+      </defs>
+      <text id="Pride-War-Flags" width="1000">
+        <textPath xlink:href="#title-path" alignment-baseline="middle" startOffset="50%" text-anchor="middle">
+          Pride War Flags
+        </textPath>
+      </text>
+    </svg>
+  <p>
+    Inspired by <a href="#">this Tumblr post</a> that shares <a href="#">this tweet</a>, that I saw shared <a href="#">on Mastodon</a>, I have designed Pride War Flags. I will write more about them, but not right now, because I want to do other things at the mooment.
+  </p>
+  </div>
 </body>
+
 </html>
