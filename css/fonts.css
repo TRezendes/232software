@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'old_harbour_seashellsregular';
-    src: url('../fonts/old_harbour_seashells-webfont.woff2') format('woff2'),
-         url('../fonts/old_harbour_seashells-webfont.woff') format('woff');
+    src: url('../fonts/old_harbour_seashells/old_harbour_seashells-webfont.woff2') format('woff2'),
+         url('../fonts/old_harbour_seashells/old_harbour_seashells-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
