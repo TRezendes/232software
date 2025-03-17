@@ -2,7 +2,8 @@
     --background-color-old: #d2d9ff;
     --background-color: #000000;
     --text-color: #fdfafe;
-    --text-color-50: #fdfafe80
+    --text-color-50: #fdfafe80;
+    --body-font: b612regular, sans-serif;
 }
 
 @media (prefers-contrast: more) {
@@ -15,7 +16,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: b612regular;
+    font-family: var(--body-font);
 }
 
 
@@ -32,7 +33,7 @@ body {
     font-size: 4rem;
     display: flex;
     flex-direction: row;
-    z-index: 100;
+    z-index: 25;
 }
 
 .button {
@@ -126,7 +127,7 @@ h2 {
     text-shadow: 0 0 8px #000000;
 }
 
-object {
+object.animated {
     overflow: visible;
     margin: 15vh auto 0;
     position: absolute;
@@ -251,10 +252,51 @@ object {
 }
 
 @media (prefers-reduced-motion) {
-  .transporter-bottom, .transporter-top, object {
+  .animated {
       display: none;
   }
   .title {
       color: var(--pride-bi-blue)
   }
+}
+
+.project-container {
+  animation-name: subtitle-fade;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  transition: font-size 0.25s ease-in-out;
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  position: relative;
+  margin: 8vh auto 0;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.project {
+  margin: 0 auto;
+  width: 40%;
+  min-width: 375px;
+  color: var(--text-color);
+  margin: -1% auto;
+  object-fit: contain;
+  /* border-radius: 15px; */
+  /* background-color: #757276; */
+  /* border: 5px dashed greenyellow; */
+}
+
+.project-button {
+  width: 80%;
+}
+
+.warflags {
+  background-color: #ffffff;
+  color: #00071e;
+}
+
+.warflags h1 {
+  font-family: old_harbour_seashellsregular;
+  color: #001553;
 }

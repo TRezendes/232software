@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg>
+<svg
+  version="2.0"
+  id="lcars-button-warflags"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  width="508"
+  height="208"
+  viewBox="0 0 508 208"
+  preserveAspectRation="True"
+  >
+  <xhtml:link rel="stylesheet" href="../../css/232.css" type="text/css" />
+  <xhtml:link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+  <title id="lcars-button-warflags-title">LCARS Button - Pride War Flags</title>
+  <metadata id="lcars-button-warflags-metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:title>LCARS Button - Pride War Flags</dc:title>
+        <dc:date>2025-03-15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Timothy Rezendes</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <style>
+      :root {
+        --variable-color: var(--background-color, #000000);
+        --variable-font: var(--body-font, b612regular);
+      }
+
+      #button {
+        fill: hsl(303.95, 32.48%, 45.88%);
+        stroke: hsl(303.95, 32.48%, 45.88%);
+        stroke-width: 0;
+      }
+
+      #button:hover {
+        fill: hsl(303.95, 32.48%, 22.94%);
+        stroke: hsl(303.95, 32.48%, 22.94%);
+      }
+
+      #active-rect {
+        fill: hsl(303.95, 32.48%, 91.76%);
+        stroke: hsl(303.95, 32.48%, 91.76%);
+        opacity: 0;
+      }
+
+      #button:active #active-rect {
+        opacity: 1;
+      }
+
+      #gap {
+        fill: var(--variable-color);
+      }
+
+      text {
+        fill: var(--variable-color);
+        font-family: var(--variable-font), sans-serif;
+        text-anchor: end;
+        dominant-baseline: ideographic;
+      }
+
+      #project-name {
+        font-size: 2.2rem;
+        font-weight: bold;
+      }
+
+      #project-url {
+        font-size: 1.5rem;
+        font-weight: regular;
+      }
+    </style>
+  </defs>
+    <a xlink:href="../../WarFlags" target="_top">
+    <g id="button">
+      <g id="button-background">
+        <rect id="button-rect" x="54" y="29" width="435" height="150" />
+        <ellipse id="button-cap" cx="54" cy="104" rx="50" ry="75" />
+        <rect id="active-rect" x="174" y="29" width="314" height="150" />
+        <rect id="gap" x="124" y="29" width="50" height="150" />
+      </g>
+      <g id="button-label">
+        <text id="project-name" x="485" y="179" dy="-35">Pride War Flags</text>
+        <text id="project-url" x="485" y="179" dy="-10">232.software/WarFlags</text>
+      </g>
+    </g>
+  </a>
+</svg>
