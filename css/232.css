@@ -2,7 +2,8 @@
     --background-color-old: #d2d9ff;
     --background-color: #000000;
     --text-color: #fdfafe;
-    --text-color-50: #fdfafe80
+    --text-color-50: #fdfafe80;
+    --body-font: b612regular, sans-serif;
 }
 
 @media (prefers-contrast: more) {
@@ -15,7 +16,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: b612regular;
+    font-family: var(--body-font);
 }
 
 
@@ -32,7 +33,7 @@ body {
     font-size: 4rem;
     display: flex;
     flex-direction: row;
-    z-index: 100;
+    z-index: 25;
 }
 
 .button {
@@ -126,7 +127,7 @@ h2 {
     text-shadow: 0 0 8px #000000;
 }
 
-object {
+object.animated {
     overflow: visible;
     margin: 15vh auto 0;
     position: absolute;
@@ -251,10 +252,196 @@ object {
 }
 
 @media (prefers-reduced-motion) {
-  .transporter-bottom, .transporter-top, object {
+  .animated {
       display: none;
   }
   .title {
       color: var(--pride-bi-blue)
   }
+}
+
+.project-container {
+  animation-name: subtitle-fade;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  transition: font-size 0.25s ease-in-out;
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  position: relative;
+  margin: 8vh auto 0;
+  text-decoration: none;
+  z-index: 100;
+  background-image: url("../images/TRaHR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-color: #757276; */
+  /* border: 5px dashed greenyellow; */
+}
+
+.project {
+  margin: 0 auto;
+  width: 40%;
+  min-width: 375px;
+  color: var(--text-color);
+  margin: -1% auto;
+  object-fit: contain;
+  /* border-radius: 15px; */
+  /* background-color: #757276; */
+  /* border: 5px dashed greenyellow; */
+}
+
+.project-button {
+  width: 80%;
+}
+
+.warflags {
+  background-color: #f5eddf;
+  color: #00071e;
+}
+
+.warflags #curved-title {
+  font-family: old_harbour_seashellsregular;
+  font-size: 6rem;
+  display: box;
+  fill: #001553;
+  /* margin: 1vh auto; */
+  width: 135%;
+  margin-left: -17.5%;
+}
+
+@media (min-width: 62.5rem) {
+  .warflags #curved-title {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+.warflags .outer-box {
+  overflow: hidden;
+}
+
+.warflags main {
+  margin-top: -8vh;
+}
+
+.warflags h2 {
+  font-family: old_harbour_seashellsregular;
+  font-size: 3rem;
+  color: #001553;
+  margin: 2vh auto;
+  animation: none;
+  position: static;
+  position: initial;
+  top: initial;
+  left: initial;
+  align-content: center;
+  transform:none;
+  padding: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
+@media (min-width: 50rem) {
+  .warflags h2 {
+    font-size: 4rem;
+  }
+}
+
+
+.warflags div {
+  margin: 2vh auto;
+}
+
+div:has(>blockquote) {
+  text-align: left;
+  background-color: #e5d2b0;
+  border-radius: 10px;
+  margin: 1vh auto 2vh auto;
+  padding: 10px;
+  width: 30%;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.quote-attribution {
+  margin-left: 10%;
+}
+
+.flex-container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flag {
+  text-align: center;
+  width: 40%;
+  min-width: 250px;
+  object-fit: contain;
+  margin: 2vh 2vw;
+  padding: 5px;
+}
+
+.ensign {
+  width: 30%;
+  margin-left: 1vw;
+  margin-right: 1vw
+}
+
+.jack {
+  width: 18%;
+  min-width: 150px
+}
+
+.warflags object {
+  width: 100%;
+  box-shadow: 4px 4px 8px #444444;
+}
+
+#bisexual_ensign {
+  box-shadow: none;
+  filter: drop-shadow(4px 4px 8px #444444);
+}
+
+.return-link {
+  text-decoration: none;
+}
+
+.warflags a {
+  padding: 2px;
+  transition: background-color 0.1s ease;
+}
+
+.warflags a:hover {
+  background-color: #e5d2b0;
+  border-radius: 4px;
+}
+
+.warflags a:active {
+  color: #f5eddf;
+}
+
+details > .faux-link {
+  list-style: none;
+}
+details > .faux-link::-webkit-details-marker {
+  display: none;
+}
+
+.warflags .faux-link {
+  text-decoration: underline;
+  padding: 2px;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.warflags .faux-link:hover {
+  background-color: #e5d2b0;
+  border-radius: 4px;
 }
