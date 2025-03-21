@@ -2,7 +2,7 @@
 <!DOCTYPE svg>
 <svg
   version="2.0"
-  id="lcars-button-svgarden"
+  id="lcars-button-warflags"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,20 +10,20 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  width="508"
+  width="353"
   height="208"
-  viewBox="0 0 508 208"
+  viewBox="0 0 353 208"
   preserveAspectRation="True"
   >
   <xhtml:link rel="stylesheet" href="../../css/232.css" type="text/css" />
   <xhtml:link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
-  <title id="lcars-button-svgarden-title">LCARS Button - SVGarden</title>
-  <metadata id="lcars-button-svgarden-metadata">
+  <title id="lcars-button-warflags-title">LCARS Button - Cap4437</title>
+  <metadata id="lcars-button-warflags-metadata">
     <rdf:RDF>
       <cc:Work rdf:about="">
         <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
-        <dc:title>LCARS Button - SVGarden</dc:title>
-        <dc:date>2025-03-15</dc:date>
+        <dc:title>LCARS Button - Cap4437</dc:title>
+        <dc:date>2025-03-21</dc:date>
         <dc:creator>
           <cc:Agent>
             <dc:title>Timothy Rezendes</dc:title>
@@ -49,24 +49,19 @@
       }
 
       #button {
-        fill: hsl(328.87, 98.15%, 42.35%);
-        stroke: hsl(328.87, 98.15%, 42.35%);
+        fill: hsl(303.95, 32.48%, 45.88%);
+        stroke: hsl(303.95, 32.48%, 45.88%);
         stroke-width: 0;
       }
 
       #button:hover {
-        fill: hsl(328.87, 98.15%, 21.18%);
-        stroke: hsl(328.87, 98.15%, 21.18%);
+        fill: hsl(303.95, 32.48%, 22.94%);
+        stroke: hsl(303.95, 32.48%, 22.94%);
       }
 
-      #active-rect {
-        fill: hsl(328.87, 98.15%, 84.7%);
-        stroke: hsl(328.87, 98.15%, 84.7%);
-        opacity: 0;
-      }
-
-      #button:active #active-rect {
-        opacity: 1;
+      #button:active {
+        fill: hsl(303.95, 32.48%, 91.76%);
+        stroke: hsl(303.95, 32.48%, 91.76%);
       }
 
       #gap {
@@ -78,31 +73,32 @@
         font-family: var(--variable-font), sans-serif;
         text-anchor: end;
         dominant-baseline: ideographic;
+        letter-spacing: -1px;
       }
 
       #project-name {
-        font-size: 3rem;
+        font-size: 2.2rem;
         font-weight: bold;
       }
 
       #project-url {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: regular;
       }
     </style>
   </defs>
-  <a xlink:href="https://github.com/TRezendes/SVGarden" target="_top">
-  <!-- <a xlink:href="../../svgarden.html" target="_top"> -->
+    <a xlink:href="https://mastodon.social/@Cap4437" target="_top">
     <g id="button">
       <g id="button-background">
-        <rect id="button-rect" x="54" y="29" width="435" height="150" />
-        <ellipse id="button-cap" cx="54" cy="104" rx="50" ry="75" />
-        <rect id="active-rect" x="173" y="29" width="316" height="150" />
-        <rect id="gap" x="124" y="29" width="50" height="150" />
+
+        <rect id="button-rect" x="54" y="29" width="218" height="150" />
+        <ellipse id="button-cap-left" cx="54" cy="104" rx="50" ry="75" />
+        <ellipse id="button-cap-right" cx="272" cy="104" rx="50" ry="75" />
+        <!-- <rect id="active-rect" x="174" y="29" width="314" height="150" /> -->
       </g>
       <g id="button-label">
-        <text id="project-name" x="485" y="179" dy="-35">SVGarden</text>
-        <text id="project-url" x="485" y="179" dy="-10">GitHub.com/TRezendes/SVGarden</text>
+        <text id="project-name" x="272" y="179" dy="-35">Cap Bot</text>
+        <text id="project-url" x="272" y="179" dy="-15">@Cap4437@mastodon.social</text>
       </g>
     </g>
   </a>

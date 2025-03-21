@@ -17,6 +17,10 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: var(--body-font);
+    background-image: url("../images/TRaHR.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
 }
 
 
@@ -273,10 +277,12 @@ object.animated {
   margin: 8vh auto 0;
   text-decoration: none;
   z-index: 100;
-  background-image: url("../images/TRaHR.png");
+  /* background-image: url("../images/TRaHR.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-attachment: fixed;
+  background-position: bottom center; */
+
   /* background-color: #757276; */
   /* border: 5px dashed greenyellow; */
 }
@@ -293,8 +299,12 @@ object.animated {
   /* border: 5px dashed greenyellow; */
 }
 
-.project-button {
+.project-button-lr {
   width: 80%;
+}
+
+.project-button-center {
+  width: 55%;
 }
 
 .warflags {
