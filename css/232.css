@@ -309,6 +309,7 @@ object.animated {
 
 .warflags {
   background-color: #f5eddf;
+  background-image: none;
   color: #00071e;
 }
 
