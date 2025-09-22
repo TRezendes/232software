@@ -3,7 +3,7 @@ server {
 	listen 80;
 	server_name hid.232.software;
 
-	return 301 $scheme://hid.uwlanc.net/$request_uri;
+	return 301 $scheme://hid.uwlanc.net$request_uri;
 }
 
 server {
@@ -16,7 +16,7 @@ server {
 	include /etc/letsencrypt/options-ssl-nginx.conf;
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
-	return 301 $scheme://hid.uwlanc.net/$request_uri;
+	return 301 $scheme://hid.uwlanc.net$request_uri;
 }
 
 server {
@@ -24,7 +24,7 @@ server {
 	listen 80;
 	server_name uwlanc-local.232.software;
 
-	return 301 $scheme://hid.uwlanc.net/$request_uri;
+	return 301 $scheme://hid.uwlanc.net$request_uri;
 }
 
 server {
@@ -37,7 +37,7 @@ server {
 	include /etc/letsencrypt/options-ssl-nginx.conf;
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
-	return 301 $scheme://local.uwlanc.net/$request_uri;
+	return 301 $scheme://local.uwlanc.net$request_uri;
 }
 
 server {
